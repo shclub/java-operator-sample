@@ -16,6 +16,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       #run: docker build .  --tag my-image-name:$(date +%s)
-      run:  docker build .  --tag java-operator-sample:$(date +%s)
+      run:  docker build .  --tag java-operator-sample
 
 #docker build -t java-operator-sample  -f ./Dockerfile .
